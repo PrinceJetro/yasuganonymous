@@ -1,6 +1,6 @@
-import anonymous from "../images/anonymous.png";
-import evidence from "../images/evidence upload.png"
-import encrypted from "../images/Top Features of Encrypted Phones - Your Ultimate Privacy Shield 1.png"
+import anonymous from "../imagesfolder/anonymous.png";
+import evidence from "../imagesfolder/evidence upload.png"
+import encrypted from "../imagesfolder/Top Features of Encrypted Phones - Your Ultimate Privacy Shield 1.png"
 
 
 export default [

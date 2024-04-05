@@ -3,7 +3,7 @@ import './App.css';
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Footer from './components/footer';
-import Complaint from './components/complaint';
+import Complaint from './components/fileComplaint';
 import ComplaintPageList from "./components/displayComplaints"
 
 

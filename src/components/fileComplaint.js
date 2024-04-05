@@ -47,7 +47,7 @@ export default function Complaint() {
         <div className="complaint">
             <Navbar />
             <form onSubmit={createComplaint} method="post" encType="multipart/form-data">
-                <h1 className="mt-5">Speak Up Anonymously (Soro Soke)</h1>
+                <h1 className="mt-5">Speak Up Anonymously (Soro Soke) new</h1>
                 <div>
                     <select id="category" name="category" required={true}>
                         <option value="categories">Category</option>

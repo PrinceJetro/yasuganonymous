@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { ReactDOM } from "react";
 import "../styles/navbar.css";
 import { Outlet, Link } from "react-router-dom";
-import logo from "../images/logo.png"
+import logo from "../imagesfolder/logo.png"
 
 
 

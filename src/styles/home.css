@@ -2,7 +2,7 @@ body{
   background-color: #D4FFED;
 }
 .intro{
-  background-image: url("../images/background.png");
+  background-image: url("../imagesfolder/background.png");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
