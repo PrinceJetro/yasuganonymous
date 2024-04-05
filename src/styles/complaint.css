@@ -1,0 +1,85 @@
+form{
+    padding: 50px;
+    width: 50%;
+}
+
+@media screen and (max-width: 540px){
+    form{
+        padding: 50px;
+        width: 100%;
+    }
+}
+
+form h1{
+    font-family: "Roboto Slab";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 42.2px;
+    text-align: center;
+
+}
+form div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form div select{
+    width: 100%;
+    padding: 10px;
+    margin: 20px;
+    gap: 8px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #D9D9D9B2;
+}
+
+
+
+form div textarea{
+    width: 100%;
+    height: 227px;
+    margin: 20px;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #D9D9D9B2;
+    padding: 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: "Roboto Slab";
+    font-weight: 700;
+}
+
+form div label{
+    background-color: #D9D9D9B2;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.65px;
+}
+
+form div img{
+    width: 100%;
+    height: auto;
+    gap: 0px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 20px;
+    background-color: #D9D9D9B2;
+}
+
+
+form div .submit {
+    background-color: #FFF310;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-family: "Roboto Slab";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52.75px;
+}

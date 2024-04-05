@@ -1,0 +1,74 @@
+nav{
+  background-color: transparent;
+  border-radius: 10px;
+  background-color: #D4FFED;
+  opacity: 0.7;
+}
+
+@media screen and (min-width:540px){
+  .navbar-brand{
+    font-family: "Roboto Slab";
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 52.75px;
+    text-align: left;
+    opacity: 1;
+  }
+  .navbar-collapse{
+    margin-left: 50%;
+  }
+  .navbar-brand img{
+    width: 53px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .navbar-collapse a{
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.65px;
+    text-align: left;
+    color: black;
+  }
+  .navbar-collapse .a:hover{
+    color: #D6CB04;
+  }
+}
+
+
+@media screen and (max-width:540px){
+  nav{
+    background-color: #D4FFED;
+    opacity: 1;
+  }
+
+  .navbar-brand{
+    font-family: "Roboto" Slab;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 52.75px;
+    text-align: center;
+    margin: auto;
+  }
+  .navbar-collapse{
+    height: 100vh;
+    background-color: #D4FFED;
+  }
+  .navbar-brand img{
+    width: 53px;
+    height: 56px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .navbar-collapse a{
+    font-family: "Roboto Slab", serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.65px;
+    text-align: left;
+  }
+  .navbar-collapse .links{
+    color: #D6CB04;
+  }
+}
